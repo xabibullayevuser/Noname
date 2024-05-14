@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body class="p-10">
+    <!-- <h1 class="text-3xl mb-5 flex flex-col justify-content-center items-center">To Do List</h1> -->
+    <h1 class="text-4xl font-light text-gray-400 mb-5">To Do List</h1>
+    <form class="flex flex-col justify-content-center items-center">
+
+        <label class="mb-4 block">
+            <span class="block">User name:</span>
+            <input 
+            id="name"
+            class="border-2 border-red-400 focus:outline-yellow-400 rounded"
+            text="text"/>
+        </label>
+    
+        <label class="mb-4 block">
+            <span class="block">User Image:</span>
+            <input 
+            id="name"
+            class="border-2 border-red-400 focus:outline-yellow-400 rounded"
+            text="text"/>
+        </label>
+    
+        <label class="mb-4 block">
+            <span class="block">User number:</span>
+            <input 
+            id="name"
+            class="border-2 border-red-400 focus:outline-yellow-400 rounded"
+            text="text"/>
+        </label> 
+    
+        <button class="border py-1 rounded hover:bg-purple-800 hover:text-white transition duration-300">Submit</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
